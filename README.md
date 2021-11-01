@@ -2,7 +2,9 @@
 
 This library returns the HTML of a Single Page Application (SPA) after the page has loaded.  This HTML can then be passed to BeautifulSoup for parsing.
 
-#### WARNING: This library requires node, npm, and puppeteer to work!
+#### !! WARNING: This library requires node, npm, and puppeteer to work !!
+##### !! If the method runs and nothing is returned, this is MOST LIKELY the issue !!
+
 ##### Install JavaScript Components (on Kali):
 
 `sudo apt-get install -y nodejs npm`
