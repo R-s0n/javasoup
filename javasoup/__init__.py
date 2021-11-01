@@ -1,1 +1,1 @@
-from javascript_soup import get_soup
+from javasoup.javasoup import get_soup

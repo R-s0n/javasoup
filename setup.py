@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'javasoup',        
   packages = ['javasoup'],  
-  version = '0.3',    
+  version = '0.7',    
   license='MIT',       
   description = 'Simple python library that uses puppeteer to pull HTML from a loaded SPA (REQUIRES NODE, NPM, AND PUPPETEER)',   
   author = 'rs0n',                  
