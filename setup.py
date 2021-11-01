@@ -11,8 +11,7 @@ setup(
   download_url = 'https://github.com/R-s0n/javasoup/archive/refs/tags/v_01.tar.gz',  
   keywords = ['webscraping', 'beautifulsoup', 'soup'],  
   install_requires=[           
-          'subprocess',
-          'os',
+          'subprocess'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',     
