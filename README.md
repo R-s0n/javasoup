@@ -2,6 +2,13 @@
 
 This library returns the HTML of a Single Page Application (SPA) after the page has loaded.  This HTML can then be passed to BeautifulSoup for parsing.
 
+#### WARNING: This library requires node, npm, and puppeteer to work!
+##### Install JavaScript Components (on Kali):
+
+`sudo apt-get install -y nodejs npm`
+
+`npm i puppeteer`
+
 ### Library Overview
 
 The traditional method of web scraping in Python w/ requests and BeautifulSoup isn't effective for more modern pages and SPAs.  This library dynamically generates a JavaScript file that uses puppeteer to fully load the page and return the HTML that is dynamicaly generated in the Document Object Model (DOM).
@@ -28,13 +35,6 @@ New Workflow w/ javasoup:
 4. Returns the HTML content
 
 ### Install
-
-#### WARNING: This library requires node, npm, and puppeteer to work!
-##### Install JavaScript Components (on Kali):
-
-`sudo apt-get install -y nodejs npm`
-
-`npm i puppeteer`
 
 #### After JavaScript components have been installed, javasoup can be downloaded through pip
 
