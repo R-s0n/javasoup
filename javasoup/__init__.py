@@ -1,0 +1,1 @@
+from javascript_soup import get_soup, install_on_kali
