@@ -8,7 +8,7 @@ setup(
   author = 'rs0n',                  
   author_email = 'rs0n.evolv3@gmail.com',     
   url = 'https://github.com/R-s0n/javasoup',  
-  download_url = 'https://github.com/R-s0n/javasoup/archive/v_01.tar.gz',  
+  download_url = 'https://github.com/R-s0n/javasoup/archive/refs/tags/v_01.tar.gz',  
   keywords = ['webscraping', 'beautifulsoup', 'soup'],  
   install_requires=[           
           'subprocess',
