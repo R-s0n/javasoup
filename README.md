@@ -25,9 +25,9 @@ Typical Workflow (requests/BeautifulSoup):
 
 New Workflow w/ javasoup:
 
-`import javasoup`
+`from javasoup import get_soup`
 
-`soup = BeautifulSoup(javasoup.get_soup('http://example.com'), 'html.parser')`
+`soup = BeautifulSoup(get_soup('http://example.com'), 'html.parser')`
 
 ### Execution Process
 
